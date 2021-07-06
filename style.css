@@ -6,10 +6,15 @@
 }
 
 section{
-     padding:  5%; 
+     padding:  ; 
      display: flex;
      
 }
+ 
+
+
+
+
   /* first section starts here */
 
   .top-banner{
@@ -71,13 +76,20 @@ article > a{
     background-repeat: no-repeat;
 }
      /* second section end here */
-
-
-.recipies-text h2 {
-    text-align: center;
-   
+ .recipies-text h2{
+     text-align: center;
+ }
+ .recipies{
+     text-align: center;
+     margin-top: 40px;
+ }
+  
+ #text-middle{
+     text-align: center;
+ }
+  
      
-}
+ 
  /* card design start here */
  .grid{
      margin: 50px;
@@ -110,11 +122,13 @@ article > a{
     border: none;
     color: seashell;
     padding: 10px;
-    width: 100%;
+    width: 50%;
     text-transform: uppercase;
     cursor: pointer;
     margin-top: 5px;
  }
+    
+    
  /* container-celebraty design starts here */
 
  .container-celebraty{
