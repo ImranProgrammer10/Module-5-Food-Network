@@ -1,12 +1,14 @@
-body{
-    
-
-    margin: 5%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 section{
-    padding: 5%;
-    margin-bottom: 30px;
+     padding:  5%; 
+     display: flex;
+     
 }
 span{
     color:orange
@@ -32,4 +34,67 @@ h1{
 .half-width img{
     width: 80%;
 }
- 
+ .top-banner{
+     position: relative;
+     min-height: 100vh;
+     background-image: url(images/shapes/Frame\ 58.jpg);
+     background-size: cover;
+     background-position: right;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-repeat: no-repeat;
+ }
+ .mid-banner{
+    position: relative;
+    min-height: 100vh;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.recipies-text h2 {
+    text-align: center;
+   
+     
+}
+ /* card design start here */
+ .grid{
+     margin: 50px;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap: 30px;
+     align-items: center;
+ }
+ .grid > article{
+     background: #eee5e9;
+     border: none;
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+     border-radius: 20px;
+     text-align: center;
+     transition: transform .3s;
+     width: 370px;
+     height: 500px;
+     
+ }
+ .grid>article:hover{
+     transform:translate(5px);
+     box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+ }
+ .grid > article img{
+     border-radius: 20px;
+ }
+ .text button{
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 20px;
+    border: none;
+    color: seashell;
+    padding: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 5px;
+ }
