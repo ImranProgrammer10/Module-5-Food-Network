@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 1%;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -10,8 +10,21 @@ section{
      display: flex;
      
 }
+  /* first section starts here */
+
+  .top-banner{
+    position: relative;
+    min-height: 100vh;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+}
 span{
-    color:orange
+    color:orange;
     
 }
 h1{
@@ -22,10 +35,14 @@ h1{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     padding: 10px 40px;
+    
     color: white;
     border-radius: 20px;
     font-weight: 700px;
 
+}
+article > a{
+    margin-bottom: 40px;
 }
 .half-width{
     float: left;
@@ -34,17 +51,14 @@ h1{
 .half-width img{
     width: 80%;
 }
- .top-banner{
-     position: relative;
-     min-height: 100vh;
-     background-image: url(images/shapes/Frame\ 58.jpg);
-     background-size: cover;
-     background-position: right;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     background-repeat: no-repeat;
- }
+
+       /* first section ends here */
+
+
+ 
+
+    /* second section starts here */
+
  .mid-banner{
     position: relative;
     min-height: 100vh;
@@ -56,6 +70,9 @@ h1{
     align-items: center;
     background-repeat: no-repeat;
 }
+     /* second section end here */
+
+
 .recipies-text h2 {
     text-align: center;
    
@@ -98,3 +115,49 @@ h1{
     cursor: pointer;
     margin-top: 5px;
  }
+ /* container-celebraty design starts here */
+
+ .container-celebraty{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     margin: 90px;
+     transition: transform .3s;
+     
+     
+
+ }.container-celebraty > div:hover{
+    transform: translate(5px);
+
+ }
+
+ .container-celebraty > div{
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+
+    
+ }
+
+ /* black-box design starts here */
+
+ .quote-text{
+     text-align: center;
+     color: white;
+     background-color: black;
+     padding: 40px;
+     cursor: pointer;
+ }
+ .container-box{
+    transition: transform .3s;
+ }
+ .container-box:hover{
+    transform:translate(5px);
+    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+
+ }
+      /* black-box design ends here */
+
+ 
+  
+
