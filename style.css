@@ -6,11 +6,13 @@
 }
 
 section{
-     padding:  ; 
+      
      display: flex;
      
 }
- 
+ .container{
+    min-height: 50vh;
+ }
 
 
 
@@ -19,8 +21,8 @@ section{
 
   .top-banner{
     position: relative;
-    min-height: 100vh;
-    background-image: url(images/shapes/Frame\ 58.jpg);
+    min-height: 50vh;
+ 
     background-size: cover;
     background-position: right;
     display: flex;
@@ -29,7 +31,7 @@ section{
     background-repeat: no-repeat;
 }
 span{
-    color:orange;
+    color:#F15B22;
     
 }
 h1{
@@ -42,7 +44,7 @@ h1{
     padding: 10px 40px;
     
     color: white;
-    border-radius: 20px;
+    
     font-weight: 700px;
 
 }
@@ -66,8 +68,8 @@ article > a{
 
  .mid-banner{
     position: relative;
-    min-height: 100vh;
-    background-image: url(images/shapes/Frame\ 59.jpg);
+    min-height: 50vh;
+   
     background-size: cover;
     background-position: right;
     display: flex;
@@ -92,30 +94,28 @@ article > a{
  
  /* card design start here */
  .grid{
-     margin: 50px;
+     
      display: grid;
-     grid-template-columns: repeat(3,1fr);
+     grid-template-columns: repeat(4,1fr);
      grid-gap: 30px;
      align-items: center;
  }
  .grid > article{
-     background: #eee5e9;
+   
      border: none;
-     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-     border-radius: 20px;
+ 
+   
      text-align: center;
      transition: transform .3s;
-     width: 370px;
-     height: 500px;
+  
+  
      
  }
  .grid>article:hover{
      transform:translate(5px);
      box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
  }
- .grid > article img{
-     border-radius: 20px;
- }
+ 
  .text button{
     background-image: linear-gradient(orange,tomato);
     border-radius: 20px;
@@ -132,45 +132,56 @@ article > a{
  /* container-celebraty design starts here */
 
  .container-celebraty{
-     display: grid;
-     grid-template-columns: repeat(3,1fr);
-     margin: 90px;
-     transition: transform .3s;
+    
+     margin: 90px; 
+     background-image: url(new-year-new-me-main/new-year-new-me-main/images/watch.png);
+    }
+      
      
      
 
- }.container-celebraty > div:hover{
-    transform: translate(5px);
-
- }
+ 
 
  .container-celebraty > div{
-    text-align: center;
-    border: none;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    
+    
+ 
     padding: 40px;
 
     
+ }
+ .item1{
+    background-image: url(new-year-new-me-main/new-year-new-me-main/images/gradient2.png);
  }
 
  /* black-box design starts here */
 
  .quote-text{
-     text-align: center;
+ 
      color: white;
-     background-color: black;
+ 
      padding: 40px;
      cursor: pointer;
  }
  .container-box{
-    transition: transform .3s;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 130px;
  }
  .container-box:hover{
     transform:translate(5px);
     box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
 
  }
+
+ .inbox-text{
+     margin-top: 120px;
+ }
       /* black-box design ends here */
+
+
 
  
   
